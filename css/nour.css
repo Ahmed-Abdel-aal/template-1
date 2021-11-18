@@ -1,0 +1,104 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 720px;
+    padding: 30px;
+}
+header .cont{
+    background-image: url(../images/header-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width:  600px;
+    position: absolute;
+    right: -18px;
+}
+header .below_header .container{
+    display: inline-block;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 9%;
+    margin-left: 16%;
+    margin-bottom: 5%;
+    margin-right: 4%;
+}
+header .below_header .container h1{
+    color: #223077;
+    font-size: 48px;
+    font-weight: 600;
+}
+header .below_header .container p{
+    font-size: 13px;
+    color: rgb(85, 90, 131);
+    padding-bottom: 40px;
+}
+header .below_header .container a{
+    text-decoration: none;
+    padding-right: 25px;
+    padding-left: 10px;
+}
+header .below_header .container .one{
+    background-color: #fd3f4b;
+    color: #fffffd;
+    border-radius:30px;
+    padding: 14px 25px;
+    font-size: 15px;
+}
+header .below_header .container .one:hover{
+    background-color: transparent;
+    color: violet;
+    border: 1px solid #d65d5d;
+}
+header .below_header .container .two{
+    color: rgb(85, 90, 131);
+    border-radius:30px;
+    padding: 14px 25px;
+    font-size: 17px;
+    font-weight: 600;
+}
+header .below_header .container .two:hover {
+    background-color: transparent;
+    color: #fffffd;
+    border: 1px solid #c95e65;
+    background-color: #fd3f4b;
+}
+
+header .contaner{
+    height: 64px;
+    /* background-color: #b60f0f; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .contaner nav{
+    padding-right: 100px;
+}
+header .contaner nav a{
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: bold;
+    color: #223077;
+}
+header .contaner .language{
+    padding-right: 130px;
+}
+header .contaner .language span{
+    padding-right: 25px;
+    color: #223077;
+    font-weight: bold;
+}
+header .contaner .language .contact{
+    padding: 10px 25px;
+    background-color: #fffffd;
+    color: #d65d5d;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 2px 2px 5px #eee, 2px 2px 5px #999;
+}
