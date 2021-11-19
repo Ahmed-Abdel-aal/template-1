@@ -1,3 +1,9 @@
+/* start variables  */
+:root {
+  --main-color: #314584;
+  --background-color: #ff3946;
+/* End Variables  */
+
 /* Start Global Rules */
 * {
     -webkit-box-sizing: border-box;
