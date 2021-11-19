@@ -6,7 +6,7 @@
     padding: 0;
 }
 header{
-    height: 720px;
+    height: 600px;
     padding-top: 30px;
 }
 header .header{
@@ -18,7 +18,7 @@ header .header .con{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 65%;
+    width: 53%;
 }
 header .header .con nav a{
     text-decoration: none;
@@ -32,7 +32,8 @@ header .header .language{
     display: flex;
     align-items: center;
     justify-content:flex-start;
-    width: 35%;
+    width: 47%;
+    padding-left: 70px;
 }
 header .header .language .pur span{
     padding-right: 15px;
@@ -54,12 +55,17 @@ header .container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 80%;
+    width: 90%;
     padding-top: 30px;
 }
 header .container .ph img{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+header .container .pra{
+    padding-left: 50px;
 }
 header .container .pra h1{
     color: #314584;
@@ -78,7 +84,7 @@ header .container .pra .one{
     background-color: #ff3946;
     color: #fffffd;
     border-radius:30px;
-    padding: 14px 25px;
+    padding: 10px 25px;
     font-size: 15px;
 }
 header .container .pra .one:hover{
@@ -90,7 +96,7 @@ header .container .pra .one:hover{
 header .container .pra .two{
     color: #314584;
     border-radius:30px;
-    padding: 14px 25px;
+    padding: 10px 25px;
     font-size: 14px;
     font-weight: 600;
 }
