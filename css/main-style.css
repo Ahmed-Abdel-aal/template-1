@@ -1,5 +1,12 @@
+/* start variables  */
+  :root {
+  --main-color: #314584;
+  --background-color: #ff3946;
+}
+/* End Variables  */
+}
 /* Start Global Rules */
-* {
+  * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -15,6 +22,10 @@
     padding-right: 40px;
     margin-left: auto;
     margin-right: auto;
+  }
+  h3{
+    color: #314584;
+    font-size: 28px;
   }
   /* Small */
   @media (min-width: 768px) {
