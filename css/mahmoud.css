@@ -22,13 +22,18 @@ header h3{
     color: var(--main-color);
     font-size: 3rem;
 }
-header span .fas.fa-arrow-left{ 
+header span { 
     position: relative;   
     left: 100%;
+    color: var(--main-color);
 }
-header span .fas.fa-arrow-right{
-     position: absolute;
-     left: 90%;
+header span :first-child:hover{
+    color: rgb(202, 202, 202);
+    padding-right: 20px;
+}
+header span :nth-child(2):hover{
+    color: rgb(202, 199, 199);
+    padding-left: 20px;
 }
 /* end the header */
 /* article and contain */
@@ -42,10 +47,30 @@ header span .fas.fa-arrow-right{
     padding: 20px;
     position: relative;
     left:88%;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
 }
-article{
+.contain article i:hover{
+   color: whitesmoke;
+}
+ .contain article{
     position: relative;
     bottom: 400px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+
+}
+article span{
+    color: rgb(218, 214, 214);
+}
+ .contain article:hover{
+    background-color: var(--background-color);
 }
 /* start article left*/
 .left h3{
@@ -54,10 +79,14 @@ padding: 20px;
 }
 .left{
     border:1px solid white;
-    padding: 0px;
+    padding: 0%;
+    margin:0%;
+    box-shadow: 10px rgb(12, 9, 3) outset;
+    
 }
 .left span{
     padding: 20px;
+    
 }
 .left p{
     padding: 20px;
