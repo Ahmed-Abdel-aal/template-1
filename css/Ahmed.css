@@ -1,3 +1,67 @@
+/* start container background */
+.three{
+    background-image: url("../images/ii.png");
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+/* end container background */
+/* icon style  */
+.three .container .file i:first-child{
+    color: #31458473;
+    font-size: 12px
+}
+.three .container .file i:nth-child(2){
+    color: #314584;
+}
+/* end icon style  */
+/* start style top of section 3 */
+.three .container .file .lett{
+    width: 150px;
+}
 .three .container .file {
-    display:grid;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* end style top of section 3 */
+@media (max-width: 767px){
+    .three .container .con div:first-child,
+    .three .container .con div:nth-child(2){
+        flex-direction: column;
+        text-align: center;
+    }
+       
+}
+
+    
+/* start the lower of section 3  */
+.three .container .con {
+    display: grid;
+    gap: 20px;
+}
+.three .container .con div:first-child,
+.three .container .con div:nth-child(2){
+ display: flex; 
+ justify-content: space-between;  
+}
+.three .container .con img {
+    width: 345px;
+}
+.three .container .llink{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.three .container .llink a {
+    color:var(--background-color);
+    text-decoration: none;    
+}
+
+@media (max-width: 767px){
+.three .container .con img{
+    width: 245px;
+    margin-bottom: 20px;
+}
 }
