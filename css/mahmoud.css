@@ -17,13 +17,18 @@ body{
 /* start the header */
 header p{
     color: var(--background-color);
+    font-size: 1.1rem;
 }
 header h3{
     color: var(--main-color);
     font-size: 3rem;
+    position: relative;
+    bottom: 20px;
+
 }
 header span { 
     position: relative;   
+    bottom: 40px;
     left: 100%;
     color: var(--main-color);
 }
@@ -57,20 +62,18 @@ header span :nth-child(2):hover{
    color: whitesmoke;
 }
  .contain article{
-    position: relative;
-    bottom: 400px;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+position: relative;
+bottom: 400px;
+transition: 0.5s;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+-o-transition: 0.5s;
+}
 
-}
-article span{
-    color: rgb(218, 214, 214);
-}
  .contain article:hover{
-    background-color: var(--background-color);
+background-color: var(--background-color);
+
 }
 /* start article left*/
 .left h3{
@@ -78,11 +81,15 @@ font-size: 18px;
 padding: 20px;  
 }
 .left{
-    border:1px solid white;
+    border:1px solid rgb(211, 211, 211);
+    border-radius: 30px;
     padding: 0%;
     margin:0%;
     box-shadow: 10px rgb(12, 9, 3) outset;
-    
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 .left span{
     padding: 20px;
@@ -99,8 +106,13 @@ padding: 20px;
     padding: 20px;
 }
 .middle{
-    border:1px solid white;
+    border:1px solid rgb(211, 211, 211);
+    border-radius:30px;
     padding: 0px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
 }
 .middle span{
     padding: 20px;
@@ -116,8 +128,13 @@ padding: 20px;
     padding: 20px;
 }
 .right{
-    border:1px solid white;
+    border:1px solid rgb(211, 211, 211);
+    border-radius: 30px;
     padding: 0px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 .right span{
     padding: 20px;
@@ -126,7 +143,10 @@ padding: 20px;
     padding: 20px;
     width: 300px;
 }
+article span{
+    color: rgb(216, 216, 216);
 
+}
 
     
 /* end article right */
