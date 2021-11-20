@@ -63,6 +63,7 @@ header span :nth-child(2):hover{
 }
  .contain article{
 position: relative;
+box-shadow: ;
 bottom: 400px;
 transition: 0.5s;
 -webkit-transition: 0.5s;
@@ -82,14 +83,9 @@ padding: 20px;
 }
 .left{
     border:1px solid rgb(211, 211, 211);
-    border-radius: 30px;
     padding: 0%;
     margin:0%;
     box-shadow: 10px rgb(12, 9, 3) outset;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
 }
 .left span{
     padding: 20px;
@@ -107,13 +103,9 @@ padding: 20px;
 }
 .middle{
     border:1px solid rgb(211, 211, 211);
-    border-radius:30px;
     padding: 0px;
-    -webkit-border-radius:30px;
-    -moz-border-radius:30px;
-    -ms-border-radius:30px;
-    -o-border-radius:30px;
-}
+
+    }
 .middle span{
     padding: 20px;
 }
@@ -129,12 +121,7 @@ padding: 20px;
 }
 .right{
     border:1px solid rgb(211, 211, 211);
-    border-radius: 30px;
     padding: 0px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
 }
 .right span{
     padding: 20px;
@@ -150,3 +137,16 @@ article span{
 
     
 /* end article right */
+.sircle{
+  width: 400px;
+  border-radius: 75% 65%;
+  height: 200px;
+  position: relative;
+  left: 0%;
+  z-index: -1;
+  background-color: rgba(109, 150, 196, 0.5)    ;
+  -webkit-border-radius: 75% 65%;
+  -moz-border-radius: 75% 65%;
+  -ms-border-radius: 75% 65%;
+  -o-border-radius: 75% 65%;
+}
